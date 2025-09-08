@@ -14,8 +14,8 @@ type ThemeProviderProps = {
 export function ThemeProvider({
   children,
   attribute = "class",
-  defaultTheme = "light",
-  enableSystem = false,
+  defaultTheme = "system",
+  enableSystem = true,
   disableTransitionOnChange = false,
   ...props
 }: ThemeProviderProps) {
